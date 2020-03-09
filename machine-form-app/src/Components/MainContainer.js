@@ -7,6 +7,7 @@ class MainContainer extends React.Component {
     return (
         <div className="MainContainer">
             <UserForm />
+            <MachineForm />
         </div>
     );
     }
