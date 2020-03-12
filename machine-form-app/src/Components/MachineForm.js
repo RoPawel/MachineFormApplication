@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { InputGroup, FormControl, Container, Row, Col } from 'react-bootstrap';
 import AutoRemoval from './AutoRemoval';
 import MachineInformations from './MachineInformations'
+import CuttingForm from './CuttingForm'
+import PunchingForm from './PunchingForm'
 
 class MachineForm extends React.Component {
   render() {
@@ -13,7 +15,11 @@ class MachineForm extends React.Component {
                 <MachineInformations />
             </div>
             <div class="row">
+                <div class="row">
+                    <CuttingForm />
+                    <PunchingForm />
                 {/* <AutoRemoval /> */}
+                </div>
             </div>
         </div>
     );
